@@ -1,11 +1,11 @@
 const options = {
     arrowParens: 'avoid',
     singleQuote: true,
-    bracketsSpacing: true,
+    bracketSpacing: true,
     endOfLine: 'lf',
     semi: false,
     tabWidth: 4,
-    traillingComma: 'none',
+    trailingComma: 'none'
 }
 
 module.exports = options

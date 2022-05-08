@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Layout from '../components/Layouts/main'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
     return (
         <>
             <Layout router={router} />
